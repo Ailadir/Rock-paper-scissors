@@ -8,4 +8,6 @@ function getComputerChoice(choices) {
 let computerChoice = getComputerChoice();
 let playerChoice = prompt('Choose "rock", "paper" or "scissors".');
 
-function playGame(playerChoice, computerChoice) {}
+function playGame(playerChoice, computerChoice) {
+  if (playerChoice == computerChoice) console.log('Draw!');
+}
