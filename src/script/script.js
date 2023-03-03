@@ -5,5 +5,7 @@ function getComputerChoice(choices) {
   return choices[randomNumber];
 }
 
-playerChoice = prompt('Choose "rock", "paper" or "scissors".');
+let computerChoice = getComputerChoice();
+let playerChoice = prompt('Choose "rock", "paper" or "scissors".');
+
 function playGame(playerChoice, computerChoice) {}
